@@ -1,0 +1,15 @@
+.movieDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 2000px;
+}
+
+.desc {
+  font-size: large;
+}
+
+.trail {
+  font-size: medium;
+}

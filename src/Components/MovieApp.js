@@ -3,10 +3,10 @@ import FilterByName from "./FilterByName/FilterByName";
 import FilterByRating from "./Rating/Rating";
 import Footer from "./Footer/Footer";
 import MovieList from "./MovieList/MovieList";
-import listMovies from "./MoviesData";
+import moviesData from "./MoviesData";
 
 const MovieApp = () => {
-  const [movies, setMovies] = useState(listMovies);
+  const [movies, setMovies] = useState(moviesData);
   const [inputSearch, setInputSearch] = useState("");
   const [rating, setRating] = useState(1);
 
